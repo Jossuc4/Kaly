@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    background-color: rgba(4, 44, 129,0.6);
+}
+h1{
+    color:yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+div>nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+fieldset{
+    width: 35%;
+    margin-left: 25%;
+    margin-right: 20%;
+    border-radius: 5%;
+    line-height: 1.6;
+}
