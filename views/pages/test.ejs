@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ça marche</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="menus.css">
+    </head>
+    <body>
+        <p>Les menus qui existent : </p>
+        <ul>
+            <li><%= data;%> <strong>Prix:<%=price;%></strong></li>
+            <h2>Recettes:</h2>
+             <ul>
+                <%recettes.forEach(elem=>{%>
+                    <li><%= elem%></li>
+                <%});%>
+            </ul>
+        </ul>
+    </body>
+</html>
