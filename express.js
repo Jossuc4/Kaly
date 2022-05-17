@@ -50,7 +50,7 @@ exp.post('/livre_d_or', urlencodedParser, function (req, res) {
         res.setHeader('content-type','text/html')
         res.render('pages/error')
     }
-    
+    console.log(req.body.mot)
     res.redirect('/livre_d_or')
 })
     
